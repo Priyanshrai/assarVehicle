@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# Frontend build artifacts
+/frontend/build/
+/frontend/dist/
+/frontend/node_modules/
+
+# Backend build artifacts
+/backend/build/
+/backend/dist/
+/backend/node_modules/

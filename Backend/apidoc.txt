@@ -1,0 +1,81 @@
+API Documentation
+
+Category Management API :-
+
+Save api category
+
+url : http://localhost:3001/category/save
+method : post 
+
+request:
+
+request body parameters : catname , caticonname 
+
+response : json msg
+
+--------------------------------------------------
+
+
+User Management API :-
+
+Save api user
+
+url : http://localhost:3001/user/save
+method : post 
+
+request:
+
+request body parameters : name , email , password , mobile , address , city , gender 
+
+response : json msg
+
+--------------------------------------------------
+
+fetch api user
+
+url : http://localhost:3001/user/fetch
+method : get 
+
+request :
+
+request query parameters : as per requirement
+
+response : JSON content 
+
+--------------------------------------------------
+
+delete api user
+
+url : http://localhost:3001/user/delete
+method : delete 
+
+request :
+
+request parameters : as per requirement (attach url params)
+
+response : JSON msg 
+
+--------------------------------------------------
+
+update api user
+
+url : http://localhost:3001/user/update
+method : patch 
+
+request parameters : request body part (condition obj + content obj)
+
+response : JSON msg 
+
+--------------------------------------------------
+
+login api user
+
+url : http://localhost:3001/user/login
+method : post
+
+request parameters : request body part 
+
+response : JSON content 
+
+--------------------------------------------------
+

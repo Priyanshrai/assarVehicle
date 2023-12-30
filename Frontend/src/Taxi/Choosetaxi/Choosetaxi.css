@@ -1,0 +1,147 @@
+
+.btn-group .btn-primary {
+    margin: auto; 
+    background-color: #e7e7e7;
+    font-family: "Rubik",sans-serif;
+    font-size:22px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    color: black ;
+    cursor: pointer;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.btn-primary:hover {
+        background-color: #000066; 
+        color: rgb(255, 255, 255) !important;
+        border-radius: 20px
+}
+.choosehome h2{
+    margin-top: 3%;
+}
+.choosehome h6{
+    margin-top: 1%;
+}
+
+div .city h4{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+div .city form{
+    margin-top: 5%;
+}
+.btn-group .btn-secondary {
+    background-color: #e7e7e7;
+    font-family: "Rubik",sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    color: black; 
+    cursor: pointer;
+    width: 220px;
+    border-radius: 20px;
+    text-align: center;
+}
+.btn-secondary:hover {
+        background-color: #000066; 
+        color: rgb(255, 255, 255);
+        border-radius: 20px
+}
+.btn-group .btn-terniary {
+    margin-top: 10%;
+    background-color: #e7e7e7;
+    font-family: "Rubik",sans-serif;;
+    font-size:16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    color: black; 
+    cursor: pointer;
+    width: 380px;
+    border-radius: 20px;
+    text-align: center;
+}
+.btn-terniary:hover {
+        background-color: #000066; 
+        color: rgb(255, 255, 255);
+        border-radius: 20px
+}
+.tabular{
+    margin-top: 10%;
+    background-color: #e7e7e7;
+    margin-left:1%;
+}
+.tabular:hover {
+    background-color: #000066; 
+        color: rgb(255, 255, 255);
+        border-radius: 20px
+}
+.tabular img {
+    padding: 10%;
+    height: 90px,auto;
+    width: 520px,auto;
+}
+.tabular p {
+    font-size: 14px,auto;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5px,auto;
+    padding: 1%,auto;
+}
+.tabular h6 {
+    margin-top: 18px;
+    padding: 3%, auto;
+    font-size: 16px,auto;
+    text-align: center;
+}
+.tabular h4 {
+    padding: 15px;
+    font-size: 20px,auto;
+    text-align: center;
+    margin-top: 40px;   
+}
+.maptwo{
+    margin-top: 5%,auto;
+    margin-left: 60px,auto;
+    width: 546px, auto;
+    height: 300px, auto;
+    margin-bottom: 40%,auto;
+}
+.maptwo_resistance h6 {
+    margin-bottom: 0,auto;
+    color: #006;
+}
+.maptwo_resistance i {
+    font-size: 30px,auto;
+    color: #006;
+    position: relative;
+    top: 5px;
+}
+iframe {
+    border: 1px solid #006;
+}
+.maptwo_btn {
+    border-radius: 0;
+    font-size: 25px;
+    padding-left: 25px,auto;
+    padding-right: 25px,auto;
+    background: #006;
+    border-color: #006;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.maptwo_btn:hover {
+    color: #006;
+    border-color: #006;
+    background: transparent;
+}
+.maptwo h3 {
+    background: #006;
+    text-align: center;
+    font-size: 25px auto,;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 0;
+}

@@ -1,0 +1,191 @@
+.bill_invoice_sec {
+    padding-top: 190px;
+}
+.total_invoice_bill {
+    border: 1px solid #006;
+    position: relative;
+}
+.vicle_detail_side h6 {
+    padding-top: 20px;
+    position: relative;
+    font-size: 15px;
+}
+.vicle_detail_side h6:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    top: 10px;
+    background: #fff;
+    margin: 0 auto;
+}
+.vicle_detail_side {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding-top: 20px;
+    max-width: 238px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 0 70px 70px 0;
+}
+.text_verti {
+    writing-mode: vertical-lr;
+    text-orientation: revert;
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    left: -12px;
+    transform: rotate(180deg);
+}
+.indore_h h3 {
+    font-size: 35px;
+    color: #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.thanku_b h3 {
+    color: #006;
+}
+.city_indore {
+    max-width: 140px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #006;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.city_indore {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #006;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.city_indore h3 {
+    font-size: 35px;
+}
+.city_indore h5 {
+    border-top: 3px solid;
+    line-height: 40px;
+}
+.pick_up {
+    border: 1px solid;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.pick_up h6 {
+    position: relative;
+    padding-top: 10px;
+}
+.pick_up h6:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #006;
+    margin: 0 auto;
+}
+.dateatime h6 {
+    position: relative;
+    margin-bottom: 0;
+}
+.dateatime h6:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background: #006;
+}
+.detail_customer h4 {
+    font-size: 25px;
+    color: #006;
+    margin-bottom: 5px;
+}
+.detail_customer h6 {
+    font-size: 18px;
+    color: #000;
+}
+.detail_customer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.thanku_heading_map h4 {
+    background: #006;
+    color: #fff;
+    padding: 5px 25px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.map_resistance h6 {
+    margin-bottom: 0;
+    color: #006;
+}
+.map_resistance i {
+    font-size: 30px;
+    color: #006;
+    position: relative;
+    top: 5px;
+}
+iframe {
+    border: 1px solid #006;
+}
+.map_btn {
+    border-radius: 0;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #006;
+    border-color: #006;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.map_btn:hover {
+    color: #006;
+    border-color: #006;
+    background: transparent;
+}
+.map h3 {
+    background: #006;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.detail_up {
+    border: 1px solid;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.details h6 {
+    text-align: left;
+    margin-left: 2px;
+    padding:8px;
+}

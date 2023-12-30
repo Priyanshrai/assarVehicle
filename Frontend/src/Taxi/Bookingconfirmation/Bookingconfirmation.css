@@ -1,0 +1,140 @@
+.confirmation {
+    margin-top:25%;
+    margin-left: 40%;
+    background-color: #e7e7e7;
+    height: 150px;
+    width: 160px;
+}
+.confirmation:hover {
+    background-color: #000066; 
+        color: rgb(255, 255, 255);
+        border-radius: 12px
+}
+.confirmation img {
+    margin-top: 5px;
+    padding: 1%;
+    height:90px;
+    width: 130px;
+}
+.confirmation p {
+    margin-bottom: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.tag h6{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.box {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 550px;
+    height: 130px;
+    padding: 10px;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+}
+.box h3 {
+    padding:4px ;
+    font-size: 18px;
+    color: #000066;
+    font-weight: bold;
+}
+.tagtwo h6{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.boxtwo {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 550px;
+    height: 220px;
+    padding: 10px;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+}
+.boxtwo h3 {
+    padding:3px ;
+    font-size: 20px;
+    color: black;
+}
+.boxtwo h2 {
+    padding:2px ;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.boxtwo h5 {
+    padding:2px ;
+    font-size: 12px;
+    color: #990066;
+    font-weight: bold;
+}
+.boxthree {
+    margin-top: 5%;
+    background-color: rgb(252, 254, 233) ;
+    margin-left: 10%;
+    width: 550px;
+    height: 260px;
+    padding: 10px;
+    border: 1.5px solid rgb(130, 130, 130);
+    box-sizing: border-box;
+}
+.boxthree p {
+    padding:2px ;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+.boxthree h5 {
+    text-align: center;
+    padding:2px ;
+    font-size: 12px;
+    color: #000066;
+    font-weight: bold;
+}
+.paymentmode h6{
+    margin-top: 3%;
+    margin-left: 10%;
+    padding:2px ;
+    font-size: 18px;
+    color: #000066;
+    font-weight: bold;
+}
+.paymentmode .form-select{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 545px;
+    height: 50px;
+    padding:2px ;
+    font-size: 16px;
+    color: #000066;
+    font-weight: bold;
+}
+.paymentmode .form-control{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 545px;
+    height: 50px;
+    padding:2px ;
+    font-size: 16px;
+    color: #000066;
+    font-weight: bold;
+}
+.confirmbook .btn{
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-bottom:   5%;
+    background-color: #000066;
+    width: 545px;
+    height: 50px;
+    font-size: 20px;
+    color: #e7f1fd;
+}

@@ -1,0 +1,157 @@
+#taximain .blue-box {
+    position: absolute;
+    z-index: 5; 
+    background: #000066;;
+    width: 65%;
+    right: 0px;
+    top: 10%;
+    height: 350%;
+    opacity: 0.7;
+}
+#taximain .blue-box .button {
+  position: absolute;
+  top: 40%;
+  height: 10%;
+  width: 24%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #e71c1c;
+  color: black;
+  font-size: 18px;
+  font-style: bold ;
+  font-family: "Rubik";
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 24px;
+  text-align: center;
+  opacity: 0.9;
+}    
+#taximain:before {
+    content: "";
+    background: hsl(0 0% 0% / 40%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#taximain .container {
+    position: relative;
+    padding-top: 200px;
+}
+@media (max-width: 992px) {
+    #Taximain .container {
+        padding-top: 58px;
+    }
+}
+#taximain h1 {
+    padding: 3%;
+    margin: 4%;
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 79px;
+    color: #ffffff;
+}
+#taximain h1 span {
+    color: #ffff;
+}
+.containertaxi {
+    margin: 5%;
+ 
+
+}
+.fleet h1 {
+    text-align: center;
+    font-size: 55px;
+    line-height: 65px;
+    color: #000066;
+    padding-bottom: 56px;
+    margin-bottom: 0;
+}
+.fleet h3 {
+    text-align: center;
+    font-size:24px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.testimonials-two {
+    height: 450px;
+    background-color: hsl(0 0% 53% / 20%);
+    position: relative;
+    padding-top: 20px;
+}
+.taxmimain_app_book .taxihome h3 {
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30%;
+}
+.taxmimain_app_book .taxihome h6 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    margin-left: 8%;
+}
+.taxmimain_app_book img {
+    padding-right: 20px;
+}
+.card-block img {
+height: 140px;
+width: 140px;    
+margin-top: 1%;
+padding: 2%;
+}
+.card-text{
+    margin: 1%;
+    padding: 1%;
+    align-content: center;
+}
+.card-footer{
+    color: #000066;
+
+}
+.fleet_occassion h1 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 55px;
+    line-height: 65px;
+    color: #000066;
+    padding-bottom: 0.5%;
+}
+.fleet_occassion h3 {
+    text-align: center;
+    font-size:24px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 2%;
+}
+.bannerh_car img {
+    width: auto;
+    height:300px;
+    padding: 5px;
+}
+.bannerh_car {
+    max-width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px;
+}
+.bannerh_car h2 h4 {
+    text-align: center;
+    font-size:24px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 2%;
+}
+.select_car {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

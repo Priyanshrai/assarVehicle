@@ -1,0 +1,166 @@
+#home-collapse {
+  margin-top: 10%;
+  margin-bottom: .10%;
+}
+
+aside {
+  color: #fff;
+  width: 280px;
+  padding-left: 25px;
+  height: 190vh;
+  background-image: linear-gradient(30deg, #000660, #0075db);
+  border-top-right-radius: 100px;
+}
+
+aside a {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  padding-left: 16px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+aside a:hover {
+  color: #000660;
+  background: #fff;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside a i {
+  margin-right: 5px;
+}
+
+aside a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 38px;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+  margin: 5px;
+  padding: 20px 0;
+}
+
+#tableuser {
+  padding: 10px;
+  margin-top: 2%;
+  margin-right: 10px;
+}
+
+.table th {
+  color: #fbf8f8;
+}
+
+.table {
+  font-weight: bold;
+}
+
+#admincontainr {
+  margin-top: .5%;
+  background-color: #0075db;
+}
+
+/*Admin*/
+.card {
+  margin: 2%;
+  padding: 2%;
+}
+
+.container-admin {
+  margin-left: -3%
+}
+
+.card-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-img-top {
+  margin-top: 1%;
+  width: 60px;
+  height: 60px;
+  align-self: center;
+}
+
+.card-text {
+  color: #792371;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body .btn {
+  color: #792371;
+  align-self: center;
+}
+
+.container-parcha {
+  width: fit-content;
+  border-radius: 3%;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 2%;
+  margin-left: -3%;
+  background-color: #9c9c9c;
+}
+
+.form-groupone {
+  margin-left: 1%;
+}
+
+.form-checkone {
+  margin-left: 3%;
+}
+
+.mgmt {
+  margin: 0;
+  margin-left: 1%;
+  font-size: 14px;
+  color: #5f0348;
+}
+
+#b5 {
+  margin-top: 15px;
+  width: 100px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+#vmd {
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 10px;
+  background-color: #000660;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#sdhome {
+  font-weight: bold;
+
+}

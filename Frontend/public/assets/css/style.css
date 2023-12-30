@@ -1,0 +1,722 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Rubik", sans-serif;
+    color: #444444;
+}
+a {
+    color: #106eea;
+}
+a:hover {
+    color: #3b8af2;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rubik", sans-serif;
+}
+/*--------------------------------------------------------------
+# Preloader
+-------------------------------------------------------------
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #ffffffc4;
+}
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #006;
+    border-top-color: #e2eefd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #000066;
+    color: #fff;
+    transition: all 0.4s;
+}
+.back-to-top i:hover {
+    background: #0c0ca7;
+    color: #fff;
+}
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+/*--------------------------------------------------------------
+# Taximain Section
+--------------------------------------------------------------*/
+.taxmimain_app_book {
+    position: relative;
+    background: url("../img/every_need_bg.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 430px;
+    margin-top: 30px;
+    margin-bottom: 1%;
+}
+#taximain {
+    margin-top: 1.5%;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/taximain.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    margin-top: 7%;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;}
+/*--------------------------------------------------------------
+# cab Section
+--------------------------------------------------------------*/
+#cab_main {
+    margin-top: 9.5%;
+    width: 100%;
+    min-height: 125vh;
+    background: url("../img/indore_bhopal_410.jpg") top center;
+    background-size: cover;
+    position: relative;
+}    
+
+
+#cabmain {
+        margin-top: 1.5%;
+        width: 100%;
+        min-height: 105vh;
+        background: url("../img/cab_s.jpg") top center;
+        background-size: cover;
+        position: relative;
+    }    
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#corporatemain {
+    margin-top: 1.5%;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/corporatemain.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+/*--------------------------------------------------------------
+# corpmain Section
+--------------------------------------------------------------*/
+#eventmain {
+    margin-top: 1.5%;
+    width: 100%;
+    min-height: 120vh;
+    background: url("../img/event.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+/*--------------------------------------------------------------
+# corpmain Section
+--------------------------------------------------------------*/
+#corpmain {
+    margin-top: 1.5%;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/buses.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section-bg {
+    background-color: #f6f9fe;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.section-title h3 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.section-title h3 span {
+    color: #106eea;
+}
+.section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+}
+@media (min-width: 1024px) {
+    .section-title p {
+        width: 50%;
+    }
+}
+/* mobile app sec */
+.mobile_app_book {
+    position: relative;
+    background: url("../img/mobile-bg.png") no-repeat left center;
+    background-size: 100%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+/* category */
+.category_sec {
+    width: 100%;
+    min-height: 580px;
+    background: url("../img/category-banner.png") center center;
+    background-size: cover;
+    position: relative;
+}
+.category_evnt {
+    width: 100%;
+    min-height: 580px;
+    background: url("../img/bg-event.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+.need_banner {
+    background: url("../img/every_need_bg.png") bottom center no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 632px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* end */
+.bg-image {
+    background-image: url("../img/banner_form.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+.bg-event-image {
+    background-image: url("../img/bg-event.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+.hr-or {
+    background-color: #000066;
+    height: 3px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.span-or {
+    display: block;
+    position: absolute;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.form_heading_title h4 {
+    background: #006;
+    box-shadow: 0px 3px 15px rgba(0, 0, 102, 0.35);
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+.form_all input,
+select {
+    background: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 102, 0.35);
+    font-size: 16px;
+    height: 55px;
+    border: 0;
+    border-radius: 4px !important;
+    position: relative;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icon_form_add {
+    position: absolute;
+    bottom: 0;
+    right: 17px;
+    font-size: 22px;
+    color: #000066;
+    bottom: 10px;
+}
+.icon_social {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon_social a {
+    font-size: 32px;
+    color: #006;
+    border: 1px solid;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+.icon_social a:hover {
+    background: #006;
+    color: #fff;
+}
+.login_sec {
+    padding-bottom: 0;
+}
+/* sign-up */
+.check_signup .form-group {
+    display: block;
+    margin-bottom: 15px;
+}
+.check_signup .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.check_signup .form-group label {
+    position: relative;
+    cursor: pointer;
+    color: #000066;
+    font-weight: 500;
+    font-size: 18px;
+}
+.check_signup .form-group label:before {
+    content: "";
+    
+    background-color: transparent;
+    border: 2px solid #000066;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.check_signup .form-group input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 11px;
+    border: solid #000066;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.resend h6 {
+    padding-top: 15px;
+}
+.resend a {
+    color: #990066;
+}
+.otp_forgot a {
+    color: #006;
+}
+.otp_forgot_pw input {
+    box-shadow: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 2px solid #006;
+    border-radius: 0 !important;
+    font-size: 24px;
+}
+.otp_forgot_pw .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #990066;
+    outline: 0;
+    text-align: center;
+    box-shadow: none !important;
+}
+.form_all .form-control:focus {
+    background: transparent;
+}
+.wait_pls {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 102, 0.35);
+    padding: 30px;
+    border-radius: 4px;
+}
+.wait_pls h4 {
+    color: #000;
+    margin-bottom: 0;
+    line-height: 32px;
+}
+.wait_pls i {
+    font-size: 50px;
+    color: #000066;
+    padding-top: 20px;
+}
+
+.avilable_tag h6 {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #006;
+}
+.avilable_tag {
+    position: relative;
+}
+.avilable_tag {
+    position: absolute;
+    top: -80px;
+    right: -84px;
+}
+.bill_top_h h4 {
+    color: #006;
+    font-size: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.bill_top_h h6 {
+    font-size: 20px;
+    color: #000;
+}
+.bill_top_h h4:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 140px;
+    height: 3px;
+    background: #006;
+    text-align: center;
+    margin: 0 auto;
+}
+.indore_bopal {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.indore_bopal h6 {
+    height: 4px;
+    background: #000066;
+    max-width: 50%;
+    width: 100%;
+    border-radius: 13px;
+}
+.indore_bopal h5 {
+    font-size: 24px;
+    color: #000;
+}
+.time_date h6 {
+    height: 4px;
+    background: #000066;
+    max-width: 20%;
+    width: 100%;
+    border-radius: 13px;
+}
+.time_date {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.time_date h5 {
+    font-size: 25px;
+    color: #000;
+}
+.pay_total {
+    border: 1px solid #006;
+    padding: 25px 35px;
+}
+.pay_total h4 {
+    color: #006;
+    font-size: 25px;
+}
+.pay_total h5 {
+    font-size: 20px;
+    color: #000;
+    line-height: 28px;
+}
+.total_a {
+    border-top: 3px solid #006;
+    padding-top: 10px;
+}
+.total_a h6 {
+    height: 3px;
+    width: 100%;
+    max-width: 8%;
+    background: #006;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+.payment_pro {
+    position: relative;
+    left: 35px;
+    border-radius: 20px 0px 0px 20px;
+    background: #006;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 15px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+.payment_process {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.profile_bg_sec {
+    position: relative;
+    background: url("../img/profile_bg.png") left center no-repeat;
+    min-height: 530px;
+    background-size: cover;
+    z-index: -1;
+}
+.modal-body h4 {
+    color: #000;
+    padding-top: 30px;
+}
+.imagePreview {
+    background: url("../img/profile.png");
+    position: relative;
+}
+.logout_btn {
+    position: relative;
+    padding-top: 15px;
+}
+.logout_btn:before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 0;
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+    height: 3px;
+    background: #006;
+}
+.logout_btn a {
+    color: #990066;
+    font-size: 18px;
+    text-align: center;
+}
+.invoice_trip {
+    box-shadow: 0px 0px 10px rgba(0, 0, 102, 0.35);
+    padding: 15px 30px 30px;
+    color: #000;
+}
+.trip_detail_bill {
+    width: 100%;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+
+.current_time button {
+	border: solid 1px #6D0062;
+	background:#6D0062;	
+	color:#fff;
+}
+.time_disable1 button {
+	color:#999;	
+	border: solid 1px #999;
+}
+
+.time_disable1 button:hover {
+	color:#999;	
+	border: solid 1px #999;
+	background:#f2f2f2;
+	cursor:not-allowed;
+}
+.seat_booking {
+	width:100%;
+	float:left;
+	padding:50px 0;
+	background:#fff;
+}
+
+.seat_booking h2 {
+	font-size:18px;
+	font-weight:900;
+	text-transform:uppercase;
+}
+.indicate {
+	float:left;
+	width:100%;
+	
+}
+
+.indicate img {
+	width:32px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.indicate p {
+	
+	float:left;
+	margin-top:5px;
+	font-weight:900;
+	font-size:14px;
+}
+.seat_inner {
+    float:left;
+    width:100%;
+}
+.seat-select {
+    display: none;
+}
+
+.seat-booked {
+	background:#EE2647 !important;
+	cursor:not-allowed;
+}
+
+.seat-select:checked+.seat {
+    background: #3F0088;
+	border:5px solid #fff;
+	outline: #3F0088 solid 5px;
+	margin-right:20px;
+	border-radius:5px !important;
+}
+
+.seat_booking {
+	width:100%;
+	float:left;
+	padding:50px 0;
+	background:#fff;
+}
+
+.seat_booking h2 {
+	font-size:18px;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+.seat {
+    float: left;
+    display: block;
+    margin: 5px 20px 5px 0;
+    background: #ddd;
+    width: 60px;
+    height: 60px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.seat-select {
+    display: none;
+}
+
+.seat-booked {
+	background:#EE2647 !important;
+	cursor:not-allowed;
+}
+
+.seat-select:checked+.seat {
+    background: #3F0088;
+	border:5px solid #fff;
+	outline: #3F0088 solid 5px;
+	margin-right:20px;
+	border-radius:5px !important;
+}
+.down_area {
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+.down_area button {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6b0065+0,430084+100 */
+background: #6b0065; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6b0065 0%, #430084 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #6b0065 0%,#430084 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #6b0065 0%,#430084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b0065', endColorstr='#430084',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding:15px 45px;
+color:#fff;
+border:none;
+margin-top:80px;
+font-weight:900;
+}

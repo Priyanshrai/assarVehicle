@@ -1,0 +1,22 @@
+.mobile_app_book h3 {
+    font-size: 55px;
+    color: #fff;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.mobile_app_book h6 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.mobile_app_book img {
+    padding-right: 20px;
+}
+.press {
+    padding-top: 20px;
+}
+.press span img {
+    padding: 0 30px;
+}

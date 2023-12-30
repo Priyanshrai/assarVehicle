@@ -1,0 +1,73 @@
+
+.car_select {
+    background: #fff;
+    transition: 0.5s;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.car_select:hover {
+    background: linear-gradient(#006 0%, #003 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 102, 0.35);
+    color: #fff;
+}
+.car_select {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 0;
+    color: #006;
+}
+.car_select h3 {
+    padding-top: 20px;
+}
+.car_select:before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background: #006;
+    top: 66%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.car_select:hover:before {
+    background: #fff;
+}
+.assar_car {
+    border: 1px solid #006;
+    padding: 15px;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.assar_car:hover {
+    background: #fff;
+    box-shadow: 3px 3px 60px rgba(0, 0, 102, 0.35);
+    border: 1px solid #eee;
+    border-bottom: 3px solid #006;
+}
+.assar_car img {
+    padding: 10px 0 20px;
+}
+.assar_car h5 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #000066;
+    line-height: 30px;
+}
+.assar_car h6 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+}
+.book_car {
+    background: hsl(0 0% 0% / 20%);
+}
+.book_car .ready_car {
+    margin-bottom: 30px;
+}
+.book_car .ready_car h6 {
+    font-weight: 400;
+}

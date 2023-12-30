@@ -1,0 +1,15 @@
+{
+    "execMap": {
+      "js": "babel-node"
+    },
+    "ignore": [
+      "node_modules/"
+    ],
+    "watch": [
+      "controller/",
+      "model",
+      "routes"
+    ],
+    "ext": "js json"
+  }
+  
